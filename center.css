@@ -15,14 +15,20 @@
     padding-right: 2vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    font-size: 0;
 }
 
 .menu_button {
     transition: 0.25s;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
 }
 
 .menu_button:hover {
-    background-color: rgba(200, 200, 200, 0.5);
+    background-color: rgb(200, 200, 200);
 }
 
 .top {
