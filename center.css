@@ -1,0 +1,35 @@
+* {
+    margin-left: 5vh;
+    margin-right: 5vh;
+    background-color: whitesmoke;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menu{
+    margin-top: 5vh;
+    text-align: right;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.top {
+    padding: 20vh 10vh;
+    text-align: center;
+    background-image: url(rogo.JPG);
+    background-size: cover;
+} 
+
+.alpha{
+    background-color: transparent;
+}
+
+.naiyo{
+    background-image: url(伊豆背景.png);
+    filter: contrast(125%) brightness(75%); /*文字も暗くなったら filter の前に backdrop- をつけてね*/
+    background-size: cover;
+}
