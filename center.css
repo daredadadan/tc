@@ -1,11 +1,8 @@
 * {
     margin-left: 5vh;
     margin-right: 5vh;
-    background-color: whitesmoke;
     font-family: 'Noto Sans JP', sans-serif;
 }
-
-
 
 .menu_button {
     color:black;
@@ -29,22 +26,20 @@
     text-align: center;
     background-image: url(rogo.JPG);
     background-size: cover;
-} 
-
-.alpha{
-    background: linear-gradient(to right, rgba(132, 255, 214, 0.7),rgba(85, 140, 250, 0.5),rgba(200, 200, 200, 0.3));
 }
 
 .naiyo{
     padding-left: 10vh;
     padding-right: 10vh;
-    background-image: url(伊豆背景.png);
     filter: contrast(125%) brightness(100%);
     background-size: cover;
 }
 
-p{
-    background-color: gray;
+.fd1 h1 {
+    border-left: solid 12px;
+    border-bottom: solid 5px;
+    border-image: linear-gradient(to right, rgba(0, 255, 170, 0.7),rgba(85, 140, 250, 0.5),rgba(200, 200, 200, 0.3));
+    border-image-slice: 1;
 }
 
 header {
