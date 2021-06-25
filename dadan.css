@@ -24,7 +24,7 @@
 .top {
     padding: 20vh 10vh;
     text-align: center;
-    background-color: skyblue;
+    background-color: linear-gradient(to right, rgba(0, 255, 170, 0.7),rgba(85, 140, 250, 0.5),rgba(200, 200, 200, 0.3);
 }
 
 .naiyo{
