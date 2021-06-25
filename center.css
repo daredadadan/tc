@@ -16,8 +16,11 @@
     margin-right: 0;
     font-size: 16px; 
     text-decoration: none;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    margin-top: 5vh;
+    color: slateblue;
+    text-decoration: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .menu_button:hover {
