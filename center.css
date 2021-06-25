@@ -5,29 +5,21 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.menu .menutext{
-    margin-top: 5vh;
-    text-align: right;
-    color: black;
-    background-color: white;
+
+
+.menu_button {
+    transition: 0.25s;
+    padding-top: 1vh;
+    text-align:right;
+    padding-bottom: 1vh;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px; 
     text-decoration: none;
     padding-left: 2vh;
     padding-right: 2vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
-<<<<<<< HEAD
-    
-=======
-    font-size: 0;
-}
-
-.menu_button {
-    transition: 0.25s;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    margin-left: 0;
-    margin-right: 0;
-    font-size: 16px;
 }
 
 .menu_button:hover {
