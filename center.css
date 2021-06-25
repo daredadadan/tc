@@ -9,11 +9,11 @@
 
 .menu_button {
     transition: 0.25s;
-    padding-top: 5vh;
+    padding-top: 1vh;
     text-align:right;
-    padding-bottom: 5vh;
-    margin-left: 0;
-    margin-right: 0;
+    padding-bottom: 1vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
     font-size: 16px; 
     text-decoration: none;
     margin-top: 5vh;
