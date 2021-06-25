@@ -5,7 +5,7 @@
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.menu{
+.menu .menutext{
     margin-top: 5vh;
     text-align: right;
     color: black;
@@ -15,6 +15,7 @@
     padding-right: 2vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
+    
 }
 
 .top {
@@ -25,11 +26,34 @@
 } 
 
 .alpha{
-    background-color: transparent;
+    background: linear-gradient(to right, rgba(132, 255, 214, 0.7),rgba(85, 140, 250, 0.5),rgba(200, 200, 200, 0.3));
 }
 
 .naiyo{
+    padding-left: 10vh;
+    padding-right: 10vh;
     background-image: url(伊豆背景.png);
-    filter: contrast(125%) brightness(75%); /*文字も暗くなったら filter の前に backdrop- をつけてね*/
+    filter: contrast(125%) brightness(100%);
     background-size: cover;
+}
+
+p{
+    background-color: gray;
+}
+
+.leftmenu{
+    margin-top: 5vh;
+    text-align: left;
+    color: slateblue;
+    text-decoration: none;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.menu,.leftmenu{
+    display: flex;
+    justify-content: center;
+    background-color: white;
 }
