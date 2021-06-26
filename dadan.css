@@ -24,7 +24,8 @@
 .top {
     padding: 20vh 10vh;
     text-align: center;
-    background: linear-gradient(to right, rgba(0, 255, 170, 0.7),rgba(85, 140, 250, 0.5);
+    background-image: url(rogo.JPG);
+    background-size: cover;
 }
 
 .naiyo{
@@ -58,8 +59,8 @@ nav {
     text-decoration: none;
 }
 
-.menu_button,.leftmenu{
+.menu,.leftmenu{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     background-color: white;
 }
