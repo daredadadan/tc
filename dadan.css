@@ -58,7 +58,7 @@ nav {
     text-decoration: none;
 }
 
-.menu,.leftmenu{
+.menu_button,.leftmenu{
     display: flex;
     justify-content: center;
     background-color: white;
