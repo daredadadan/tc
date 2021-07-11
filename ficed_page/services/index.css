@@ -1,0 +1,8 @@
+.contents_container {
+    height: 90vh;
+    background-color: black;
+}
+
+#container_title {
+    background-image: url(../../images/server_1.jpg);
+}
