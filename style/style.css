@@ -87,6 +87,7 @@ footer {
     background-size: cover;
     background-position: bottom;
     font-size: 0;
+    flex-wrap: wrap;
 }
 
 #footerBlock {
@@ -100,20 +101,15 @@ footer {
     flex-basis: 70%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #local_links a {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
     font-size: 18px;
+    word-wrap: none;
 }
 
-#local_links a:not(:last-child)::after {
-    content: '';
-    border-right: 1px solid var(--text-color);
-    position: relative;
-    left: 18px;
-}
 
 #sns_links {
     flex-basis: 30%;
