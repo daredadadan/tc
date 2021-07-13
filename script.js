@@ -1,15 +1,15 @@
-//var menuButton = document.getElementsByClassName('menuButton');
 window.onload = function () {
     var nav = document.getElementById('nav').innerHTML;
     var local_links = document.getElementById('local_links');
     local_links.innerHTML = nav;
 }
 
+
+// メニューバー
 var switchButton = false;
 function buttonClick() {
     var nav = document.getElementById('nav');
     var menuButton_icon = document.getElementById('menuButton');
-    //var menuButton = document.getElementById('menuButton');
     switch (switchButton) {
         case false:
             nav.classList.add('navAni');

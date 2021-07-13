@@ -1,24 +1,10 @@
-.contents_container {
-    height: 125vh;
-}
-
 #container_title {
     background-image: url(images/fuji_1.jpg);
 }
 
 #container1 {
     background-image: url(images/forest_1.jpg);
-}
-
-#container3 {
-    background-color: rgb(255, 0, 60);
-}
-
-.contents_LeftBottom {
-    position: absolute;
-    bottom: 15%;
-    left: 8%;
-    padding: 25px;
+    height: 125vh;
 }
 
 .description {
